@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class EmployeeServlet extends HttpServlet{
-
+//service method
 	public void service(HttpServletRequest req,HttpServletResponse res) throws IOException {
 		
 		String empID=req.getParameter("id");
